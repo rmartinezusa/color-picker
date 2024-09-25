@@ -3,7 +3,7 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  background-color: #DCDCDC;
+  background-color: #808080;
 }
 
 header {
@@ -29,7 +29,11 @@ header {
 }
 
 .selected {
-  border: 2px solid black;
+  border: 3px solid black;
+}
+
+.selected-black-only {
+  border: 3px solid #fff;
 }
 
 /* colors */
@@ -59,4 +63,5 @@ header {
 }
 .white {
   background-color: white;
+  color: #000;
 }
